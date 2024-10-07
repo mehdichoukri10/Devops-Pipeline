@@ -12,25 +12,7 @@ Ce projet démontre la mise en place d'un pipeline CI/CD complet utilisant Jenki
 - Prometheus pour le monitoring
 
 ## Structure du Projet
-Devops-pipeline/
-├── kubernetes/
-│   ├── deployment.yaml
-│   ├── service.yaml
-│   └── rbac.yaml
-├── jenkins/
-│   └── Jenkinsfile
-├── monitoring/
-│   └── prometheus-config.yaml
-├── scripts/
-│   ├── setup_k8s_cluster.sh
-│   ├── install_jenkins.sh
-│   ├── install_docker.sh
-│   ├── install_nexus.sh
-│   └── install_sonarqube.sh
-├── docs/
-│   ├── aws-security-config.md
-│   └── infrastructure-setup.md
-└── README.md
+DevOps-Pipeline/ ├── kubernetes/ │ ├── deployment.yaml │ ├── service.yaml │ └── rbac.yaml ├── jenkins/ │ └── Jenkinsfile ├── monitoring/ │ └── prometheus-config.yaml ├── scripts/ │ ├── setup_k8s_cluster.sh │ ├── install_jenkins.sh │ ├── install_docker.sh │ ├── install_nexus.sh │ └── install_sonarqube.sh ├── docs/ │ ├── aws-security-config.md │ └── infrastructure-setup.md └── README.md
 
 ## Prérequis
 - AWS Account
