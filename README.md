@@ -12,7 +12,7 @@ Ce projet démontre la mise en place d'un pipeline CI/CD complet utilisant Jenki
 - Prometheus pour le monitoring
 
 ## Structure du Projet
-ci-cd-kubernetes-pipeline/
+Devops-pipeline/
 ├── kubernetes/
 │   ├── deployment.yaml
 │   ├── service.yaml
