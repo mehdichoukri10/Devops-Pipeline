@@ -11,8 +11,27 @@ Ce projet démontre la mise en place d'un pipeline CI/CD complet utilisant Jenki
 - Nexus comme registre d'artefacts
 - Prometheus pour le monitoring
 
-## Structure du Projet
-DevOps-Pipeline/ ├── kubernetes/ │ ├── deployment.yaml │ ├── service.yaml │ └── rbac.yaml ├── jenkins/ │ └── Jenkinsfile ├── monitoring/ │ └── prometheus-config.yaml ├── scripts/ │ ├── setup_k8s_cluster.sh │ ├── install_jenkins.sh │ ├── install_docker.sh │ ├── install_nexus.sh │ └── install_sonarqube.sh ├── docs/ │ ├── aws-security-config.md │ └── infrastructure-setup.md └── README.md
+## Arborescence du Projet
+```plaintext
+DevOps-Pipeline/
+├── kubernetes/
+│   ├── deployment.yaml
+│   ├── service.yaml
+│   └── rbac.yaml
+├── jenkins/
+│   └── Jenkinsfile
+├── monitoring/
+│   └── prometheus-config.yaml
+├── scripts/
+│   ├── setup_k8s_cluster.sh
+│   ├── install_jenkins.sh
+│   ├── install_docker.sh
+│   ├── install_nexus.sh
+│   └── install_sonarqube.sh
+├── docs/
+│   ├── aws-security-config.md
+│   └── infrastructure-setup.md
+└── README.md
 
 ## Prérequis
 - AWS Account
